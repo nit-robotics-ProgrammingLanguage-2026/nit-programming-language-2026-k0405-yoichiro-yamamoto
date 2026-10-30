@@ -8,9 +8,11 @@ int main(void) {
      とする．また，xの値はキーボードからdoubleとして入力するものとする．
      これらの値すべてをdouble型として計算した計算結果のa(桁数指定なし)を表示するようなプログラムとせよ．
      */
-    
+    double x;
+    double result;
+    scanf("%lf", &x);
+    result=x*90.0/3.141592;
+    printf("%f", result);
 
-
-     
     return 0;
 }
